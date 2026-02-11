@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バンドセッション会 - 音楽仲間と繋がる場所</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>SESSION<span class="accent">JAM</span></h1>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link active">TOP</a>
+                <a href="guide.php" class="nav-link">初参加ガイド</a>
+                <a href="about.php" class="nav-link">セッション会とは</a>
+                <a href="schedule.php" class="nav-link">開催スケジュール</a>
+                <a href="join.php" class="nav-link">参加方法</a>
+                <a href="faq.php" class="nav-link">FAQ</a>
+                <a href="report.php" class="nav-link">レポート</a>
+                <a href="news.php" class="nav-link">お知らせ</a>
+            </nav>
+            <button class="menu-toggle" aria-label="メニュー">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">
+                    <span class="line">音楽で</span>
+                    <span class="line">繋がる</span>
+                    <span class="line highlight">セッション</span>
+                </h2>
+                <p class="hero-description">経験も楽器も問わない。ただ音楽が好きなら、それだけで十分。</p>
+                <div class="hero-buttons">
+                    <a href="guide.php" class="btn btn-primary">初めての方へ</a>
+                    <a href="schedule.php" class="btn btn-secondary">次回開催を見る</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- セッション会とは -->
+    <section class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">セッション会とは</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" style="animation-delay: 0.1s">
+                    <div class="card-icon">🎸</div>
+                    <h3>自由なジャム</h3>
+                    <p>決まった曲も、固定メンバーもなし。その場で生まれる音楽を楽しむスタイル。</p>
+                </div>
+                <div class="about-card" style="animation-delay: 0.2s">
+                    <div class="card-icon">🎵</div>
+                    <h3>経験不問</h3>
+                    <p>初心者も経験者も関係なく、音楽を通じて交流できる場所です。</p>
+                </div>
+                <div class="about-card" style="animation-delay: 0.3s">
+                    <div class="card-icon">🎤</div>
+                    <h3>様々な楽器</h3>
+                    <p>ギター、ベース、ドラム、キーボード、管楽器など、あらゆる楽器が集まります。</p>
+                </div>
+            </div>
+            <div class="cta-box">
+                <h3>もっと詳しく知りたい方は</h3>
+                <a href="about.php" class="btn btn-outline">セッション会の詳細</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 次回開催 -->
+    <section class="section schedule-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">次回開催</h2>
+            </div>
+            <div class="next-event">
+                <div class="event-badge">NEXT</div>
+                <div class="event-date">
+                    <span class="date-day">15</span>
+                    <span class="date-month">MAR</span>
+                </div>
+                <div class="event-details">
+                    <h3 class="event-title">Spring Session 2026</h3>
+                    <div class="event-info">
+                        <div class="info-item">
+                            <span class="info-label">時間</span>
+                            <span class="info-value">19:00 - 22:00</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">会場</span>
+                            <span class="info-value">都内音楽スタジオ</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">参加費</span>
+                            <span class="info-value">¥3,000</span>
+                        </div>
+                    </div>
+                    <a href="schedule.php" class="btn btn-primary">詳細・申込み</a>
+                </div>
+            </div>
+            <a href="schedule.php" class="link-more">全ての開催スケジュールを見る →</a>
+        </div>
+    </section>
+
+    <!-- 参加の流れ -->
+    <section class="section flow-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">参加の流れ</h2>
+            </div>
+            <div class="flow-steps">
+                <div class="flow-step">
+                    <div class="step-number">1</div>
+                    <h3>イベント申込み</h3>
+                    <p>開催スケジュールから参加したい日程を選んで申込み</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-number">2</div>
+                    <h3>当日会場へ</h3>
+                    <p>楽器を持って指定の会場へ。レンタルも可能です</p>
+                </div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">
+                    <div class="step-number">3</div>
+                    <h3>セッション開始</h3>
+                    <p>自由にメンバーを組んで音楽を楽しもう</p>
+                </div>
+            </div>
+            <div class="cta-box">
+                <a href="guide.php" class="btn btn-primary">初参加ガイドを見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- レポート -->
+    <section class="section report-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">活動レポート</h2>
+            </div>
+            <div class="report-grid">
+                <article class="report-card">
+                    <div class="report-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="report-content">
+                        <time class="report-date">2026.02.01</time>
+                        <h3 class="report-title">Winter Session 2026 開催レポート</h3>
+                        <p class="report-excerpt">寒さも吹き飛ぶ熱いセッションになりました。総勢25名が参加...</p>
+                        <a href="report-detail.php?id=1" class="report-link">READ MORE →</a>
+                    </div>
+                </article>
+                <article class="report-card">
+                    <div class="report-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="report-content">
+                        <time class="report-date">2026.01.15</time>
+                        <h3 class="report-title">新年初セッション 大盛況！</h3>
+                        <p class="report-excerpt">2026年最初のセッション会。新しい出会いもたくさん...</p>
+                        <a href="report-detail.php?id=2" class="report-link">READ MORE →</a>
+                    </div>
+                </article>
+            </div>
+            <a href="report.php" class="link-more">全てのレポートを見る →</a>
+        </div>
+    </section>
+
+    <!-- お知らせ -->
+    <section class="section news-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">お知らせ</h2>
+            </div>
+            <div class="news-list">
+                <a href="news-detail.php?id=1" class="news-item">
+                    <time class="news-date">2026.02.10</time>
+                    <h3 class="news-title">3月開催の参加受付を開始しました</h3>
+                </a>
+                <a href="news-detail.php?id=2" class="news-item">
+                    <time class="news-date">2026.02.05</time>
+                    <h3 class="news-title">初心者向けワークショップ開催のお知らせ</h3>
+                </a>
+                <a href="news-detail.php?id=3" class="news-item">
+                    <time class="news-date">2026.01.28</time>
+                    <h3 class="news-title">会場が新しくなりました</h3>
+                </a>
+            </div>
+            <a href="news.php" class="link-more">全てのお知らせを見る →</a>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">さあ、音楽を始めよう</h2>
+            <p class="cta-description">次のセッションで、あなたの音を聞かせてください</p>
+            <a href="schedule.php" class="btn btn-large">参加申込みはこちら</a>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SESSION<span class="accent">JAM</span></h3>
+                    <p>音楽仲間と繋がるセッション会</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>はじめに</h4>
+                        <a href="guide.php">初参加ガイド</a>
+                        <a href="about.php">セッション会とは</a>
+                        <a href="faq.php">よくある質問</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>参加する</h4>
+                        <a href="schedule.php">開催スケジュール</a>
+                        <a href="join.php">参加方法・料金</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>情報</h4>
+                        <a href="report.php">活動レポート</a>
+                        <a href="news.php">お知らせ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SESSION JAM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
