@@ -901,10 +901,20 @@ body {
     
     .footer-content {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
     }
     
     .footer-links {
         grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .footer-brand {
+        text-align: center;
+    }
+    
+    .footer-column {
+        text-align: center;
     }
 }
 
@@ -921,5 +931,26 @@ body {
     .event-info {
         flex-direction: column;
         gap: var(--spacing-sm);
+    }
+    
+    .footer {
+        padding: var(--spacing-lg) 0 var(--spacing-md);
+    }
+    
+    .footer-content {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .footer-brand h3 {
+        font-size: 1.75rem;
+    }
+    
+    .footer-column h4 {
+        font-size: 1rem;
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .footer-column a {
+        font-size: 0.9rem;
     }
 }
