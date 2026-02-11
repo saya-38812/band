@@ -232,6 +232,7 @@ body {
 }
 
 .hero-title .line {
+    padding: 0 10px;
     display: block;
     animation: slideUp 0.8s ease-out backwards;
 }
